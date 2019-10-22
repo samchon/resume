@@ -1,3 +1,1 @@
-mdpdf conut.md \
-    --style assets/styles/github.css \
-    --border=15mm
+mdpdf $1 --style assets/styles/github.css --border=15mm
