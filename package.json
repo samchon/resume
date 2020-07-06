@@ -1,0 +1,22 @@
+{
+  "name": "@samchon/resume",
+  "version": "1.0.0",
+  "description": "이름: 남 정호",
+  "main": "index.js",
+  "scripts": {
+    "build": "mdpdf README.md --style assets/styles/github.css --border=15mm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samchon/resume.git"
+  },
+  "author": "Jeongho Nam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samchon/resume/issues"
+  },
+  "homepage": "https://github.com/samchon/resume#readme",
+  "devDependencies": {
+    "mdpdf": "^2.1.2"
+  }
+}
