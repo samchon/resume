@@ -15,7 +15,7 @@
   - 학점: 4.16 / 4.50
     - 비고: 조기 졸업
 
-제가 대학교를 다니던 3 년 반을 다시금 돌이켜보면, 참으로 유익했던 시간이었습니다. 별 흥미도 없는 오만가지 과목을 다 공부하며 종일 학교에 있어야 했던 고등학교 시절과는 다르게, 자신이 원하는 분야를 마음대로 선택하고 재량껏 공부할 수 있어서 특히 좋았습니다.
+제가 대학교를 다니던 3 년 반을 다시금 돌이켜보면, 참으로 유익했던 시간이었습니다. 별 흥미도 없는 오만가지 과목을 다 공부하며 종일 학교에 있어야만 했던 고등학교 시절과는 다르게, 대학교는 자신이 원하는 분야를 마음대로 선택하고 재량껏 공부할 수 있어서 특히 좋았습니다.
 
 그리고 그렇게 자유롭게 자신이 원하는 것을 배울 수 있던 대학생 시절, 저의 제 1 목표는 "이제 대학생이 되었으니, 대형 프로젝트 한 번 근사하게 만들어보자" 였습니다. 때문에 학교에 다니는 시간을 제하고는, 일과시간의 대부분을 개인 프로젝트를 만드는 데 쏟았습니다. 
 
@@ -74,19 +74,29 @@ Company                             | Entry Date | Leave Date | Form
 
 ## 2. Introduction
 ### 2.1. For a lifetime
-저는 11 살에 프로그래밍에 입문한 이래, 이것이 곧 저의 제 1 취미가 되어, 지난 22 년간 개발에서 손에서 놓지 않았습니다. 때문에 저는 일에 관하여 저를 소개함에 있어, 종종 "덕업일치" 라는 표현을 씁니다. 취미가 곧 직업이 되어, 세상 참 편하게 살고 있다는 뜻으로써 말입니다.
+저는 11 살에 프로그래밍을 시작하였습니다. 당시 "넷츠고에서 멀티미디어 홈페이지 만들기" 라는 책으로 개발에 입문하여 HTML 로 개인 홈페이지를 만드는 것을 시작으로, Flash 와 Php 를 이용해 올 플래시 홈페이지와 게시판을 만드는 등, 이래저래 홈페이지 만드는 재미에 푹 빠져 있었습니다.
+
+지금 와서 생각해보면 참 간단한 홈페이지에 시시콜콜한 답변형 게시판이었지만, 당시의 저는 코딩을 하다가 막혀서 쩔쩔맬 때가 되면, 그것을 악몽으로 다시 꿀 정도로 고생하기도 했었습니다. 그리고 그렇게 1 년을 고생 고생한 끝에 올 플래시 홈페이지를 완성하던 날, 그 날의 성취감과 환희는 아직도 제 기억에 고스란히 남아있습니다,
+
+그리고 그 날 이후 프로그래밍은 저의 제 1 취미가 되었고, 어느덧 22 년이 지났습니다. 지난 22 년 간 개발에서 손을 뗀 적이 없으며, 오늘날에도 여전히 코딩은 저의 제 1 취미입니다. 때문에 저는 일에 관하여 저를 소개함에 있어, 종종 "덕업일치" 라는 표현을 씁니다. 취미가 곧 직업이 되어, 세상 참 재미나게 살고 있다는 의미로써 말입니다.
 
 ### 2.2. Self Improvement
 ![Github Daily Contributions](assets/images/grass.gif)
 
 저는 대학교를 졸업한 이래로, 앞서 [1.3. Awards](#13-awards) 단원에서 언급했던 바와 같이, 퇴근 후와 주말 등의 여가시간에 오픈소스를 개발해 왔습니다. 특별한 일이 있지 않는 한 daily study 와 commit 을 목표로 꾸준한 자기계발을 해 왔습니다. 
 
-아마도 이를 가장 확연하게 증명할 수 있는 수단은 [제 Github 계정](https://github.com/samchon)이 아닐까 합니다. 위 gif 이미지는 저의 최근 5 년 간 Github 커밋 내역을 그래프화한 것으로써, 제가 그간 오픈소스에 얼마나 매진했는지를 잘 보여준다고 생각합니다.
+아마도 이를 가장 확연하게 증명할 수 있는 수단은 [제 Github 계정](https://github.com/samchon)이 아닐까 합니다. 위 gif 이미지는 저의 최근 5 년 간 Github 커밋 내역을 그래프화한 것으로써, 제가 그간 오픈소스에 얼마나 기여해왔는지를 가장 잘 보여준다고 생각합니다.
 
 ### 2.3. Standard
 저는 표준 개발 절차를 준수하며, 이에 매우 숙달되어 있습니다.
 
-### 2.4. Documentations
+제가 프로그래밍에 막 입문하였던 어린 시절에는, 설계나 자료구조 뭐 이런 것에 대하여 전혀 모른 채, 프로그램을 그야말로 아무렇게나 만들었습니다. 하지만, 개발에 취미를 붙인 이래 이런 저런 프로그램을 만들어나가면서, 그리고 만들어나가는 개개별별 프로그램의 규모가 점점 커져나감에 따라, 설계 및 구조화된 프로그래밍의 중요성을 깨닫게 되었습니다.
+
+특히 20 대가 되고나서부터는, 다른 대형 프로젝트들이 그들의 아키텍처를 어떻게 설계하고 프로그램 코드를 어떤 식으로 짜는지 등이 궁금하여, 몇 가지 프로젝트를 분석해 본 바 있습니다. 그 중 특히 심도있게 관찰했던 것이 [Flex Framework](http://flex.apache.org/) 및 [Tour De Flex](http://flex.apache.org/tourdeflex/index.html) 의 여러 UI 컴포넌트들, 그리고 Microsoft 와 EA 가 각각 구현했던 C++ STL 라이브러리입니다. 이들 코드는 은연 중 저에게 많은 영향을 주어, [저의 Github](https://github.com/samchon) 코드에 그들의 스타일이 은은하게 묻어있고는 합니다.
+
+더불어 지금으로부터 약 10 년 전인 2011 년, 제 나름의 초대형 프로젝트 [3.2.2. Samchon Simulation](#322-samchon-simulation) (약 30 만 라인) 에서 오만가지 난항을 다 겪으며, 저는 아키텍처 설계의 중요성과 정체화된 프로그래밍의 중요성을 다시 한 번 체감하게 됩니다. 그리고 동시에 [2.4. 문서화](#24-documentation) 및 [2.5. TDD](#25-test-driven-development) 의 중요성을 뼈에 사묻히도록 느끼게 되어, 이 날 이후로는 [2.4. 문서화](#24-documentation) 및 [2.5. TDD](#25-test-driven-development) 에도 각별한 주의를 기울이고 있습니다.
+
+### 2.4. Documentation
 저는 개발 프로젝트를 진행함에 있어, 문서화를 매우 중요하게 여기며, 항시 실천합니다.
 
 오픈소스 프로젝트를 진행함에 있어서도, Github 가 권장하는 문서 가이드 라인을 철저하게 준수하고 있습니다. 새로운 기능을 개발하거나 혹은 버그를 수정함에 있어서도 반드시 관련 issue 를 작성하고, 이에 대한 commit 도 반드시 issue 에 대한 reference 가 달리도록 하고 있습니다. 더불어 API 및 가이드 문서에 대해서도 철저하게 하는 편입니다.
@@ -119,7 +129,9 @@ Company                             | Entry Date | Leave Date | Form
     - https://github.com/samchon/tgrid/runs/837437346?check_suite_focus=true
     - https://github.com/samchon/mutex-server/runs/839743359?check_suite_focus=true
 
-> 혹자는 Test Driven Development 를 따르면, 개발 시간이 오래 걸리고 그 과정이 매우 번거로워진다고 말합니다. 하지만 저는, 오히려 이 방법이야말로 프로그램을 가장 빠르고 안전하게 만드는, 최선의 지름길이라 믿습니다.
+> #### My Opinion
+> 혹자는 Test Driven Development 를 준수하면, 개발 시간이 더 오래 걸리고 이를 지키는 과정이 무던히도 번거롭다고 말합니다. 하지만 저는, 오히려 이 방법 TDD 야말로, 프로그램을 가장 빠르고 안전하게 만드는, 최선의 지름길이자 정도라고 생각합니다.
+
 
 
 
@@ -142,12 +154,6 @@ OON (Object Oriented Network) 와 Invoke 라는 특유의 패턴을 통하여, �
 다만, `samchon-framework` 의 지원 언어에 TypeScript 를 추가하고 OON (Object Oriented Network) 에 대하여 더 심도있게 연구하는 와중에, RFC (Remote Function Call) 에 대한 실마리를 찾게 되었습니다. 때문에 2018 년 말, 오래도록 개발해오던 `samchon-framework` 를 중단하고, [3.1.3. TGrid](#313-tgrid) 를 만들게 됩니다.
 
 #### 3.1.2. TSTL
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/samchon/tstl/blob/master/LICENSE)
-[![npm version](https://badge.fury.io/js/tstl.svg)](https://www.npmjs.com/package/tstl)
-[![Downloads](https://img.shields.io/npm/dm/tstl.svg)](https://www.npmjs.com/package/tstl)
-[![Build Status](https://github.com/samchon/tstl/workflows/build/badge.svg)](https://github.com/samchon/tstl/actions?query=workflow%3Abuild)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsamchon%2Ftstl.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsamchon%2Ftstl?ref=badge_shield)
-
 TypeScript Standard Template Library.
 
   - Repository: https://github.com/samchon/tstl
@@ -161,12 +167,6 @@ TypeScript Standard Template Library.
 다만 이렇게 만들어놓고보니, `tstl` 이 JS 기본 라이브러리가 미처 지원하지 못하는 다양한 자료구조나 알고리즘 등을 보완해주기에, 오픈소스로 널리 공개하게 되었습니다. 더불어 C++ 표준 스펙은 아니되, TypeScript 개발환경 상 부디 있었으면 좋겠다 싶은 기능들은, extension module 로써 제공하고 있습니다.
 
 #### 3.1.3. TGrid
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/samchon/tgrid/blob/master/LICENSE)
-[![npm version](https://badge.fury.io/js/tgrid.svg)](https://www.npmjs.com/package/tgrid)
-[![Downloads](https://img.shields.io/npm/dm/tgrid.svg)](https://www.npmjs.com/package/tgrid)
-[![Build Status](https://github.com/samchon/tgrid/workflows/build/badge.svg)](https://github.com/samchon/tgrid/actions?query=workflow%3Abuild)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fsamchon%2Ftgrid.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fsamchon%2Ftgrid?ref=badge_shield)
-
 TypeScript Grid Computing Framework.
 
   - Repository: https://github.com/samchon/tgrid
@@ -181,11 +181,6 @@ TypeScript Grid Computing Framework.
 더불어 `tgrid` 는 여지껏 제가 만든 오픈소스 프로젝트 중, 문서화가 가장 잘 된 프로젝트라 자부합니다. [가이드 문서](https://tgrid.com) 를 통하여 `tgrid` 의 다양한 개념을 익힐 수 있고, 제공되는 다양한 예제 프로젝트들을 따라하면서 Remote Function Call 의 유용성을 능히 체험할 수 있습니다.
 
 #### 3.1.4. Mutex Server
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/samchon/mutex-server/blob/master/LICENSE)
-[![npm version](https://badge.fury.io/js/mutex-server.svg)](https://www.npmjs.com/package/mutex-server)
-[![Downloads](https://img.shields.io/npm/dm/mutex-server.svg)](https://www.npmjs.com/package/mutex-server)
-[![Build Status](https://github.com/samchon/mutex-server/workflows/build/badge.svg)](https://github.com/samchon/mutex-server/actions?query=workflow%3Abuild)
-
 Critical sections in the network level.
 
   - Repository: https://github.com/samchon/mutex-server
@@ -243,7 +238,7 @@ Stock Simulation & Back Testing.
 
 `samchon-simulation` 은, 제가 대학교를 다니던 3 년 반을 모조리 불살라 만든, 주식 시뮬레이션 및 자동 매매에 관한 프로그램입니다. 주 기능은 시세와 재무정보 조회로부터 시작하여, Back Testing 이나 Montecarlo Simulation 등 주식 자동 매매를 위한 사전 시뮬레이션에 관한 것입니다. 만약 자세한 내용이 궁금하시다면, 첨부된 [매뉴얼](assets/manuals/samchon-simulation.pdf) 을 참고하시거나, [Demo Application](http://samchon.org/simulation) 에 접속하여 직접 사용해보시어도 좋습니다.
 
-더불어 `samchon-simulation` 은 워낙 전체 프로그램의 규모가 컸기에 (약 33 만 라인), 3년 반 동안 무수한 시행착오를 겪어야 했는데, 그 과정에서 숱한 리팩토링과 모듈화를 반복 숙달할 수 있었습니다. 또한 그 과정에서, 아키텍처 설계의 중요성을 그 누구보다 절실히 느껴, 아키텍처 설계에 입문하게 되는 계기가 되기도 했던 그런 프로젝트입니다.
+더불어 `samchon-simulation` 은 워낙 전체 프로그램의 규모가 컸기에 (약 30 만 라인), 3년 반 동안 무수한 시행착오를 겪어야 했는데, 그 과정에서 숱한 리팩토링과 모듈화를 반복 숙달할 수 있었습니다. 또한 그 과정에서, 아키텍처 설계의 중요성을 그 누구보다 절실히 느껴, 아키텍처 설계에 입문하게 되는 계기가 되기도 했던 그런 프로젝트입니다.
 
 또한, `samchon-simulation` 은 주 알고리즘 및 연산은 C++ 로 만들었고, 프론트 어플리케이션은 Flex 로 만들었습니다. 게다가 데모 버전은 클라우드 형태로 만들었기에, C++ 과 Flex 간에 네트워크 통신을 통한 상호 연동이 필요습니다. 바로 이 때 만들었던 연동 모듈이, 후일 상용 프로젝트 [4.1.1. OraQ (Selene TR-1)](#411-oraq-selene-tr-1) 에서 쓰인 [3.1.1. Samchon Framework](#311-samchon-framework) 입니다.
 
@@ -260,23 +255,37 @@ Complicate Dicision Tree.
 
 특이사항으로는 계층 구조를 통해 AND 와 OR 및 filtered condition 등을 표현할 수 있으며, 함수 그 자체를 객체로 간주하여 조건문의 각 항에 삽입할 수 있습니다. 또한, exploration 이라 하여, 최적의 조건문을 스스로 찾아주는 기능 또한 있습니다.
 
-혹 자세한 내용이 궁금하시다면, 첨부된 [매뉴얼](assets/manuals/nam-tree.pdf) 을 참고해 주십시오.
+혹 자세한 내용이 궁금하시다면, 첨부된 [매뉴얼](assets/manuals/nam-tree.pdf) 을 참고해주십시오.
 
 
 
 
 ## 4. Commercial Projects
 ### 4.1. SmartCareWorks
-#### 4.1.1. OraQ (Selene TR-1)
+#### 4.1.1. Outline
 Cloud DICOM (PACS) Media Manager.
 
-  - 개발 기여도: 100 %
+  - 개발 기여도: 80 %
   - 작성 언어
     - C++
     - Flex (Actionscript 3.0)
     - Pixel Bender
     - MS-SQL
+  - 특징
+    - 클라우드 어플리케이션 (웹 페이지)
+    - 웹과 C++ 간 연동 필요 (DICOM 라이브러리가 전부 C++ 기반)
+    - GPU Programming 구현 필요
+      - 이미지 한 장에 수백 MB ~ 수 GB 를 상회
+      - 이를 20 프레임 단위로 이펙트 효과를 줄 수 있어야 함
+    - 서버 전체 단위의 임계영역 제어 필요
   - 초기 매뉴얼: [assets/manuals/oraq.pdf](assets/manuals/oraq.pdf)
+  - 자세한 이야기: [ORAQ.md](ORAQ.md)
+
+OraQ (일본에서는 Selene TR-1) 는 제가 대학교를 졸업하고나서 처음 개발했던 상용 프로젝트로써, 제가 여지껏 했던 모든 프로젝트를 통들어 가장 난이도가 높고, 하지만 시간은 가장 촉박했던 그런 프로젝트입니다. 그리고 동시에, 당시 신입이던 저에게 "이보다 더 좋은 기회가 있을까?" 싶은, 그런 프로젝트이기도 했습니다.
+
+다만 저 나름대로 믿는 구석이 있었던게, 저는 [3.1.1. Samchon Framework](#311-samchon-framework) 라는, OraQ 를 구현하는데 딱 알맞은 수단을 가지고 있었기 때문입니다. 2014 년 당시 웹에서 GPU Programming 이 가능한 수단은 Flex (ActionScript 3.0) 가 가장 유력하였는데, OraQ 를 구현하려면 다시금 이 Flex 를 C++ 과 연동할 수 있어야했으니, C++ 과 Flex 를 네트워크 수준에서 연동하려고 만들었던 [3.1.1. Samchon Framework](#311-samchon-framework) 가 그야말로 제격이었던 것입니다.
+
+때문에 저는 당시, JSP 나 PHP 같은 전통적인 웹 기술 스택을 과감히 포기하고, 웹 서버와 어플리케이션 전체를 [3.1.1. Samchon Framework](#311-samchon-framework) 를 기반으로 하여 직접 만듦으로써, 프로젝트를 온전히 완수할 수 있었습니다. 그리고 그 덕에, 저의 자신감과 연봉은 무한히 상승하였으니, 다시 돌이켜봐도 저는 참 운이 좋았던 것 같습니다. 졸업 후 신입 개발자가 되자마자 첫 상용 프로젝트로써, 이런 큰 기회를 거머쥘 수 있었으니 말입니다.
 
 ### 4.2. Unitech
 #### 4.2.1. Torpedo Simulator Communication Module
@@ -391,18 +400,75 @@ Kiosk Pants Editor with Critical Sections.
 #### 4.4.1. Entity Relationship Diagram
 ![ERD](assets/images/aijinet-erd.png)
 
+아이지넷에서 근무하는 동안, 저는 DB 테이블에 대한 설계를 도맡아 하였습니다. 
+
+그리고 저는 [2. Introduction](#2-introduction) 단원에서 서술한 바와 같이, 표준 개발론을 준수하며 특히 DB 의 경우에는 더더욱이 아키텍처 설계를 중시합니다. 따라서 저는, 제가 설계했던 모든 테이블에 대한 ERD (Entity Relationship Diagram) 를 작성해두었으며, 동시에 ERD 에 대한 상세 해설서 또한 작성하였습니다.
+
+더불어 아이지넷이 운영하는 서비스의 주요 정책이 급변하여, 테이블 구조에 대한 근본적인 변화가 필요할 때에도, 테이블이나 필드들을 아무렇게나 추가하거나 변경하지 않았습니다. 그저 새 모델에 맞추어 정규화를 비롯한 주요 원칙을 지킨 가운데, 엄밀한 테이블 생성 및 구조 변경문을 작성하고 이를 검증하는 등의 DB 수준의 리팩토링을 했을 뿐입니다.
+
+  - 아이지넷에 근무하며 작성했던 ERD 및 해설서 일람
+    - v4.0: 초기 비지니스 모델
+    - v4.1: 새로운 비지니스 (파트너쉽) 추가
+    - v4.2: 주요 정책의 대거 변경
+    - v4.3: 새로운 서비스 (보험닥터) 및 보험 분석엔진 추가
+    - v5.0: 완전히 새로운 정책으로의 이행
+
 #### 4.4.2. API Server
+백엔드 API 서버 + 프론트 개발자가 사용할 API 연동 라이브러리
+
+  - 개발 기여도: 90 %
   - 작성 언어
-    - 초기: Php
-    - 후기: TypeScript
+    - Php Laravel (전기)
+    - TypeScript (후기)
+    - MySQL
+  - 특징
+    - 프론트 개발자들에게 별도 API 연동 라이브러리 제공
+    - 설치 편리성
+    - 무 오류
+
+제가 아이지넷에서 만든 백엔드 API 서버의 가장 큰 특징을 꼽으라면, 그것은 바로 API 연동 라이브러리에 있습니다. 보통의 백엔드 개발자들은 서버의 각 기능 요소들에 대하여, Rest API 스펙을 주어, 프론트 개발자들에게 알아서 잘 연동해보시라고 합니다. 하지만 저는, API 서버와 연동할 수 있는 TypeScript 라이브러리까지 직접 만들어, 프론트 개발자들에게 제공한 것입니다.
+
+이 API 라이브러리에는 백엔드 API 가 제공하는 각 요소들 및 그에 대한 자료구조와 타입 정의가 명확하게 적시되어있어, 프론트 엔드 개발자는 서버 연동에 대해 별달리 신경 쓸 필요없이, 순수하게 프론트 개발 그 자체에만 집중할 수 있었습니다. 당시 아이지넷의 프론트 개발자들은 이를 두고, 다음과 같이 평했습니다.
+
+> Sam (본인의 영어 이름) 이 주는 API 연동 라이브러리는 참 마약 같다.
+>
+> 이게 너무 편해서, 만일 다른 회사에 가게 되면, 여타 백엔드 개발자들이랑은 도무지 같이 일을 못 할 거 같다. 마치 금단 증상을 앓듯이, 두고 두고 마약같이 편했던 시절을 떠올리며, 불편하게 일하게 될 것 같다.
+
+두 번째 특징은 바로 설치에 있어서의 간편성입니다. 
+
+제가 만드는 백엔드 API 서버는 `npm run build` 명령어를 치면 서버 구성을 필요한 그 모든 것이 알아서 설치되고, `npm run start` 명령어를 입력하면 개발자의 로컬 컴퓨터에 해당 API 서버가 실제로 구동되었기 때문입니다. 그 어떠한 복잡한 설정이나 환경 구성도 필요없이 말입니다.
+
+> 본인이 아이지넷에 막 입사했던 초기에는 백엔드 API 서버가 Php Laravel 로 구성되어있었는데, 이 때는 환경 설정이나 설치 방법 등이 매우 어렵고 복잡하여 늘 불편하였다. 따라서 후일 [4.4.5. TypeScript Migration](#445-typescript-migration) 을 행할 때, 가장 먼저 이 부분을 개선하였다.
+
+세 번째 특징은 극한의 안정성으로써, 제가 아이지넷에서 만든 백엔드 API 서버는 TDD (Test Driven Development) 를 통하여, 그 안정성을 매번 상시 검증하며 보증합니다. 자세한 내용은 [4.4.5. TypeScript Migration](#445-typescript-migration) 단원을 참고해주십시오.
 
 #### 4.4.3. Insurance Engine
+아이지넷의 보험 엔진 (추천 엔진 + 분석 엔진).
+
+  - 개발 기여도: 100 %
+    - 전체 기여도: 50 %
   - 작성 언어: TypeScript
-  - 비고: 무 오류
+  - 특징
+    - 소요시간의 극한 최적화
+    - 다양한 테스트 및 벤치마크 보고서 발간 도구 존재
+    - 무 오류
+
+
 
 #### 4.4.4. Private Engine for Special Insurer
+폐쇄망을 사용하는 모 보험사에게 공급한, 그들만을 위한 전용 보험 엔진.
+
+  - 개발 기여도: 100 %
   - 작성 언어: TypeScript
-  - 비고: 무 오류
+  - 특징
+    - Process 수준의 블루그린 대치
+    - 배포 및 설치 마법사 구현
+    - 무 오류
 
 #### 4.4.5. TypeScript Migration
-  - 작성 언어: TypeScript
+Php Laravel 로 만들어진 백엔드 API 서버를 TypeScript 로 전환.
+
+  - 개발 기여도: 90 %
+  - 작성 언어
+    - TypeScript
+    - MySQL
