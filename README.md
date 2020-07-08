@@ -1,4 +1,48 @@
 # Resume
+## Table of Contents
+  * [**1. Outline**](#1-outline)
+    + [1.1. Profile](#11-profile)
+    + [1.2. Educations](#12-educations)
+    + [1.3. Awards](#13-awards)
+    + [1.4. Skills](#14-skills)
+    + [1.5. Experiences](#15-experiences)
+  * [**2. Introduction**](#2-introduction)
+    + [2.1. For a lifetime](#21-for-a-lifetime)
+    + [2.2. Self Improvement](#22-self-improvement)
+    + [2.3. Standardization](#23-standardization)
+    + [2.4. Documentation](#24-documentation)
+    + [2.5. Test Driven Development](#25-test-driven-development)
+  * [**3. My Projects**](#3-my-projects)
+    + [3.1. Open Source Projets](#31-open-source-projets)
+      - [3.1.1. Samchon Framework](#311-samchon-framework)
+      - [3.1.2. TSTL](#312-tstl)
+      - [3.1.3. TGrid](#313-tgrid)
+      - [3.1.4. Mutex Server](#314-mutex-server)
+      - [3.1.5. Miscellaneous](#315-miscellaneous)
+    + [3.2. Private Projects](#32-private-projects)
+      - [3.2.1. Hansung Timetable](#321-hansung-timetable)
+      - [3.2.2. Samchon Simulation](#322-samchon-simulation)
+      - [3.2.3. Nam Tree](#323-nam-tree)
+  * [**4. Commercial Projects**](#4-commercial-projects)
+    + [4.1. SmartCareWorks](#41-smartcareworks)
+      - [4.1.1. OraQ (Selene TR-1)](#411-oraq-selene-tr-1)
+    + [4.2. Unitech](#42-unitech)
+      - [4.2.1. Torpedo Simulator Communication Module](#421-torpedo-simulator-communication-module)
+    + [4.3. Hiswill](#43-hiswill)
+      - [4.3.1. TSP, Construction Scheduler](#431-tsp-construction-scheduler)
+      - [4.3.2. 3D Bin Packing](#432-3d-bin-packing)
+      - [4.3.3. Folding](#433-folding)
+      - [4.3.4. Auto HL](#434-auto-hl)
+      - [4.3.5. Distributed Button Finder](#435-distributed-button-finder)
+      - [4.3.6. Cropper](#436-cropper)
+      - [4.3.7. Kiosk Pants Editor](#437-kiosk-pants-editor)
+    + [4.4. Aijinet](#44-aijinet)
+      - [4.4.1. Entity Relationship Diagram](#441-entity-relationship-diagram)
+      - [4.4.2. Backend API Server](#442-backend-api-server)
+      - [4.4.3. Insurance Engine](#443-insurance-engine)
+      - [4.4.4. Private Engine for Special Insurer](#444-private-engine-for-special-insurer)
+      - [4.4.5. TypeScript Migration](#445-typescript-migration)
+
 ## 1. Outline
 ### 1.1. Profile
 이름: 남 정호
@@ -56,9 +100,9 @@ DB/SQL       | 20 년       | 5 년    | ERD 설계에 능함
   - 총 상용 경력 63 개월
     - 정규직: 50 개월
     - 계약직: 13 개월
-  - 최종 급여
+  <!-- - 최종 급여
     - 정규직: 1 억 원 / 1 년
-    - 계약직: 8,000 만 원 / 6 개월
+    - 계약직: 8,000 만 원 / 6 개월 -->
 
 Company                             | Entry Date | Leave Date | Form
 ------------------------------------|------------|------------|-------
@@ -87,7 +131,7 @@ Company                             | Entry Date | Leave Date | Form
 
 아마도 이를 가장 확연하게 증명할 수 있는 수단은 [제 Github 계정](https://github.com/samchon)이 아닐까 합니다. 위 gif 이미지는 저의 최근 5 년 간 Github 커밋 내역을 그래프화한 것으로써, 제가 그간 오픈소스에 얼마나 기여해왔는지를 가장 잘 보여준다고 생각합니다.
 
-### 2.3. Standard
+### 2.3. Standardization
 저는 표준 개발 절차를 준수하며, 이에 매우 숙달되어 있습니다.
 
 제가 프로그래밍에 막 입문하였던 어린 시절에는, 설계나 자료구조 뭐 이런 것에 대하여 전혀 모른 채, 프로그램을 그야말로 아무렇게나 만들었습니다. 하지만, 개발에 취미를 붙인 이래 이런 저런 프로그램을 만들어나가면서, 그리고 만들어나가는 개개별별 프로그램의 규모가 점점 커져나감에 따라, 설계 및 구조화된 프로그래밍의 중요성을 깨닫게 되었습니다.
@@ -112,7 +156,7 @@ Company                             | Entry Date | Leave Date | Form
 > 회사에서 작성했던 이슈 및 일일 업무일지는 퇴근하는 길에 핸드폰으로 복기하고, 새로운 기능이 필요하거나 기존 라이브러리도 충당이 안 되는 요소들이 있으면, 집에 가서 오픈소스로 직접 구현해보기도 합니다.
 
 ### 2.5. Test Driven Development
-저는 [2.3. Standard](#23-standard) 단원에서 언급한 정제화된 설계 및 표준화만큼이나, 테스트 기반 개발에 대하여도 매우 중하게 여깁니다. 
+저는 [2.3. Standardization](#23-standardization) 단원에서 언급한 정제화된 설계 및 표준화만큼이나, 테스트 기반 개발에 대하여도 매우 중하게 여깁니다. 
 
 때문에 저는 그 어떤 프로그램이나 솔루션을 만들던, 언제나 테스트 자동화 프로그램을 함께 제작합니다. 테스트 자동화 프로그램을 만듦에 있어 타 시스템과의 연동 문제가 걸려 애로사항이 피어나거든, 해당 시스템을 유사하게 흉내내서라도 검증 수단을 갖추는 것을 지향합니다.
 
@@ -262,7 +306,7 @@ Complicate Dicision Tree.
 
 ## 4. Commercial Projects
 ### 4.1. SmartCareWorks
-#### 4.1.1. Outline
+#### 4.1.1. OraQ (Selene TR-1)
 Cloud DICOM (PACS) Media Manager.
 
   - 개발 기여도: 80 %
@@ -413,7 +457,7 @@ Kiosk Pants Editor with Critical Sections.
     - v4.3: 새로운 서비스 (보험닥터) 및 보험 분석엔진 추가
     - v5.0: 완전히 새로운 정책으로의 이행
 
-#### 4.4.2. API Server
+#### 4.4.2. Backend API Server
 백엔드 API 서버 + 프론트 개발자가 사용할 API 연동 라이브러리
 
   - 개발 기여도: 90 %
@@ -453,7 +497,16 @@ Kiosk Pants Editor with Critical Sections.
     - 다양한 테스트 및 벤치마크 보고서 발간 도구 존재
     - 무 오류
 
+저는 아이지넷에서 보험 엔진 개발을 도맡아 해 왔습니다. 다만, 이 경우에는 보험업에 대한 생리를 잘 알어 서비스 전략을 기획하고 데이터를 기획할 수 있는 비 개발자 동료가 있었고, 저는 그의 전략적 기획을 알고리즘 연구 및 개발을 통해 뒷받침을 해 주었던 케이스입니다.
 
+또한, 직장 동료들이 수집한 자료의 정합성을 판별하는 데이터 검증 프로그램과, 수집된 데이터를 엔진에 적용할 시 어떠한 모형이 그려지는지를 미리 알아볼 수 있는 수십여 종의 벤치마크 프로그램 등, 다양한 지원시스템을 갖추어 두었습니다. 여기에 TDD 에 기반한 테스트 자동화 프로그램을 제작해두었고, 그 덕에 제가 아이지넷에 재직해 온 3 년 반 동안, 실 서비스에서는 단 한 번의 시스템 에러도 발생한 바 없습니다.
+
+마지막으로 보험엔진을 처음 만들어 서비스를 출시하던 시절엔, 엔진의 1 회 연산 소요시간이 무려 최대 35 초, 평균 4 초에 달했었습니다. 하지만 이를 지속적인 알고리즘 최적화 연구 및 개발을 통하여, 최종 0.6 ms 까지 낮추는 데 성공한, 극한의 최적화를 선보였던 프로젝트이기도 합니다.
+
+  - 초기 소요시간: 4 초
+  - 1 차 최적화 이후: 1초 내외
+  - 2 차 최적화 이후: 100 ms 내외
+  - 3 차 최적화 이후: 1 ms 이하
 
 #### 4.4.4. Private Engine for Special Insurer
 폐쇄망을 사용하는 모 보험사에게 공급한, 그들만을 위한 전용 보험 엔진.
@@ -465,6 +518,21 @@ Kiosk Pants Editor with Critical Sections.
     - 배포 및 설치 마법사 구현
     - 무 오류
 
+아이지넷은 국내 모 보험사에, 그들을 위한 전용 보험 엔진을 제작하여 공급한 바 있습니다. 이 전용 보험엔진의 주 기능은 위 [4.4.3. Insurance Engine](#443-insurance-engine) 와 동일하되, 다만 해당 보험사가 외부 인터넷과 완전히 단절된 폐쇄망을 사용하는 관계로, 이에 맞추어 환경구성을 바꾼 점이 다를 뿐입니다.
+
+어쨋든 해당 보험사는 외부 인터넷과 완전히 단절된 폐쇄망을 사용하는 관계로, 저는 이에 대응키 위하여 무려 NodeJS 환경에서 배포 및 설치 마법사를 구현하는 기행을 해야했습니다. 그리고 폐쇄망에서의 무중단 업데이트 환경을 실현하기 위하여, '프로세스 수준의 블루그린 대치' 라는 개념을 발명하여 적용하기도 하였습니다.
+
+> #### 프로세스 수준의 블루그린 대치
+> NodeJS 로 메인 프로그램을 실형하면, 메인 프로그램은 마스터 프로세스와 슬레이브 프로세스를 각각 만듦니다. 마스터 프로세스는 네트워크 통신 및 중개작업을 전담하며, 슬레이브 프로세스는 연산작업만을 담당합니다.
+>
+> 그리고 업데이트가 필요할 때에는, 마스터 프로세스는 내비둔 채 슬레이브 프로세스만을 새로운 것으로 대치합니다. 다만, 업데이트는 무중단으로 이뤄져야 하기 때문에, 슬레이브 프로세스가 연산작업을 할 때는 읽기락을 사용하며, 슬레이브 프로세스를 대치할 때는 쓰기락을 통하여 서비스가 중도에 중단되는 일이 없도록 하였습니다.
+>
+> 참고로 이를 구현하기 위해 사용된 것은 바로, [3.1.2. TGrid](#312-tgrid) 의 *workers* 모듈입니다.
+
+또한, 해당 보험사에서 아이지넷 보험엔진의 퍼포먼스에 관하여 수치로 된 문서들을 여럿 요하기에, 다양한 종류의 벤치마크를 수행, 이에 관한 보고서를 발간하여 전달해 준 바 있습니다. 그리고 앞서 [4.4.3. Insurance Engine](#443-insurance-engine) 에서 진행하였던 최적화 작업 덕에, 해당 보험사에게 제공한 보험 엔진 역시, 서버 한 대당 동시에 1 천명 분의 연산작업을 수행할 수 있었습니다.
+
+더불어 이번 솔루션 역시 테스트 자동화 프로그램을 위시한 강력한 검증 수단들을 구비, 해당 보험사에 솔루션을 제공한 이래, 단 한 번도 오류가 발생한 적이 없습니다.
+
 #### 4.4.5. TypeScript Migration
 Php Laravel 로 만들어진 백엔드 API 서버를 TypeScript 로 전환.
 
@@ -472,3 +540,13 @@ Php Laravel 로 만들어진 백엔드 API 서버를 TypeScript 로 전환.
   - 작성 언어
     - TypeScript
     - MySQL
+
+제가 아이지넷에 갓 입사했을 적에는, 회사의 공식 개발 언어는 이미 Php 로 결정된 뒤였습니다. 때문에 초창기 API 서버는 Php Laravel 로 만들어졌습니다. 다만, 그 데이터 구조가 한없이 복잡하고 방대한 [4.4.3. Insurance Engine](#443-insurance-engine) 만큼은 도무지 Php 로 못 만들겠어서, 보험엔진만큼은 회사와 타협을 봐 TypeScript 로 만들었습니다.
+
+> 보험엔진을 C++ 로 만들려 하였으나, C++ 개발자를 충원하는 게 어렵다는 이유로 기각
+
+하지만, 서비스의 규모가 점점 더 방대해지며 복잡성을 띄어감에 따라, 어느 순간을 기점으로 API 서버 역시 typeless 로 유지하는 게 버거워지는 순간이 찾아오고 맙니다. 때문에 저는 아이지넷에서, 한동안 Php Laravel 로 작성된 API 서버를, TypeScript 로 변환하는 작업을 진행했습니다.
+
+다만 이왕 하는 migration 작업, 언어만 바뀌어서는 안 되괴 무언가 환경적으로도 큰 개선이 있어야겠다는 생각이 들어, 이전 API 서버에서는 없던 요소들을 하나 둘씩 갖춰나가기 시작합니다. 그 중 첫번째는 간편 설치와 간편 업데이트로써, 로컬에서의 `npm run build` 및 `npm run update` 등의 명령어를 통해, 서비스의 설치 및 업데이트를 매우 간단하게 구사할 수 있도록 해 둔 것입니다.
+
+두 번째 개선 사항은 안정성에 관련된 것으로써, Php Laravel 때에는 쉬이 하기 힘들었던 TDD (Test Driven Development) 의 정석을 구사하였습니다. 때문에 새 API 서버 역시, 여지껏 제가 만들어온 여타 프로젝트들처럼, 강력한 테스트 자동화 프로그램을 구비해두었고, 그 덕에 실 서비스 무 에러를 실현 중입니다.
