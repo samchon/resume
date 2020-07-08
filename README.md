@@ -1,4 +1,4 @@
-# Resume
+# Resume of [Samchon](https://github.com/samchon)
 ## Table of Contents
   * [**1. Outline**](#1-outline)
     + [1.1. Profile](#11-profile)
