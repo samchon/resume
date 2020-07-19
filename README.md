@@ -2,7 +2,7 @@
 > 이 문서는 축약 이력서로써, 각 단원의 링크를 클릭하면, 상세 페이지로 이동합니다.
 
 ## [1. Outline](https://github.com/samchon/resume/blob/master/STORY.md#1-outline)
-### [1.1. Profile](https://github.com/samchon/resume/blob/master/STORY.md#)
+### [1.1. Profile](https://github.com/samchon/resume/blob/master/STORY.md#11-outline)
 이름: 남 정호
 
   - 생년월일: 1988-03-11
@@ -19,8 +19,8 @@
 
 ### [1.3. Awards](https://github.com/samchon/resume/blob/master/STORY.md#13-awards)
   - [Samchon Simulation](https://github.com/samchon/resume/blob/master/STORY.md#322-samchon-simulation): 한성대 공학경진대회 2012 은상
-  - [Samchon Framework](https://github.com/samchon/resume/blob/master/STORY.md##311-samchon-framework): 공개소프트웨어개발자대회 2015 일반부 동상
-  - [TSTL](https://github.com/samchon/resume/blob/master/STORY.md##312-tstl): 공개소프트웨어개발자대회 2017 일반부 은상
+  - [Samchon Framework](https://github.com/samchon/resume/blob/master/STORY.md#311-samchon-framework): 공개소프트웨어개발자대회 2015 일반부 동상
+  - [TSTL](https://github.com/samchon/resume/blob/master/STORY.md#312-tstl): 공개소프트웨어개발자대회 2017 일반부 은상
 
 ### [1.4. Skills](https://github.com/samchon/resume/blob/master/STORY.md#14-skills)
 Skill        | Experiences | Careers | Note
