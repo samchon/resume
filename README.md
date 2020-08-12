@@ -41,12 +41,12 @@ DB/SQL       | 20 년       | 5 년    | ERD 설계에 능함
 
 Company                             | Entry Date | Leave Date | Form
 ------------------------------------|------------|------------|-------
-[스마트케어웍스](https://github.com/samchon/resume/blob/master/STORY.md##41-smartcareworks) | 2014-10    | 2015-02    | 계약직
-[유니텍 해양연구소](https://github.com/samchon/resume/blob/master/STORY.md##42-unitech)     | 2015-05    | 2015-07    | 계약직
-[히즈윌 부설연구소](https://github.com/samchon/resume/blob/master/STORY.md##43-hiswill)     | 2015-10    | 2015-11    | 계약직
-[히즈윌 부설연구소](https://github.com/samchon/resume/blob/master/STORY.md##43-hiswill)     | 2015-11    | 2017-01    | 정규직
-[아이지넷](https://github.com/samchon/resume/blob/master/STORY.md##44-aijinet)             | 2017-01    | 2019-12    | 정규직
-[아이지넷](https://github.com/samchon/resume/blob/master/STORY.md##44-aijinet)             | 2020-01    | 2020-07    | 계약직
+[스마트케어웍스](https://github.com/samchon/resume/blob/master/STORY.md#41-smartcareworks) | 2014-10    | 2015-02    | 계약직
+[유니텍 해양연구소](https://github.com/samchon/resume/blob/master/STORY.md#42-unitech)     | 2015-05    | 2015-07    | 계약직
+[히즈윌 부설연구소](https://github.com/samchon/resume/blob/master/STORY.md#43-hiswill)     | 2015-10    | 2015-11    | 계약직
+[히즈윌 부설연구소](https://github.com/samchon/resume/blob/master/STORY.md#43-hiswill)     | 2015-11    | 2017-01    | 정규직
+[아이지넷](https://github.com/samchon/resume/blob/master/STORY.md#44-aijinet)             | 2017-01    | 2019-12    | 정규직
+[아이지넷](https://github.com/samchon/resume/blob/master/STORY.md#44-aijinet)             | 2020-01    | 2020-07    | 계약직
 
 
 
