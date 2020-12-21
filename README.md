@@ -64,7 +64,7 @@ Company                             | Entry Date | Leave Date | Form
 프로젝트를 진행하면서 이슈사항들에 대하여 꾸준히 문서로 정리하며, 상용 프로젝트를 시작한 이래, 단 하루도 거르지 않고 일일 업무일지를 작성해왔습니다.
 
 ### [2.5. Test Driven Development](https://github.com/samchon/resume/blob/master/STORY.md#25-test-driven-development)
-저는 개발을 할 때, 표준화만크이나 TDD 를 철저히 지킴으로써, 늘 안정성을 추구합니다.
+저는 개발을 할 때, 표준화만큼이나 TDD 를 철저히 지킴으로써, 늘 안정성을 추구합니다.
 
 
 
