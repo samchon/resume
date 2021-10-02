@@ -35,9 +35,9 @@ DB/SQL       | 20 년       | 5 년    | ERD 설계에 능함
   - 총 상용 경력 63 개월
     - 정규직: 50 개월
     - 계약직: 13 개월
-  - 최종 급여
-    - 정규직: 1 억 원 / 1 년
-    - 계약직: 8,000 만 원 / 6 개월
+  - 이전 연봉 (현재 비공개)
+    - 정규직: 1 억 원
+    - 계약직: 1.6 억 원
 
 Company                             | Entry Date | Leave Date | Form
 ------------------------------------|------------|------------|-------
@@ -47,6 +47,8 @@ Company                             | Entry Date | Leave Date | Form
 [히즈윌 부설연구소](https://github.com/samchon/resume/blob/master/STORY.md#43-hiswill)     | 2015-11    | 2017-01    | 정규직
 [아이지넷](https://github.com/samchon/resume/blob/master/STORY.md#44-aijinet)             | 2017-01    | 2019-12    | 정규직
 [아이지넷](https://github.com/samchon/resume/blob/master/STORY.md#44-aijinet)             | 2020-01    | 2020-07    | 계약직
+아키드로우 | 2020-11 | 재직중 | 정규직
+
 
 
 
@@ -76,6 +78,9 @@ Project            | Skills           | Special Note
 [tstl](https://github.com/samchon/resume/blob/master/STORY.md#312-tstl)               | TypeScript       | C++ STL in the TypeScript
 [tgrid](https://github.com/samchon/resume/blob/master/STORY.md#313-tgrid)              | TypeScript       | TypeScript Grid Computing Framework
 [mutex-server](https://github.com/samchon/resume/blob/master/STORY.md#314-mutex-server)       | TypeScript       | Mutex and Semaphore in the network level
+[nestia](https://github.com/samchon/resume/blob/master/STORY.md#315-nestia) | TypeScript | Automatic SDK generator for NestJS
+[safe-typeorm](https://github.com/samchon/resume/blob/master/STORY.md#316-safe-typeorm) | TypeScript | TypeORM helper for the compilation level
+[backend](https://github.com/samchon/resume/blob/master/STORY.md#317-backend) | TypeScript | Example backend project for newbie developers
 [hansung-timetable](https://github.com/samchon/resume/blob/master/STORY.md#321-hansung-timetable)  | Flex             | Timetable Simulator
 [samchon-simulation](https://github.com/samchon/resume/blob/master/STORY.md#322-samchon-simulation) | C++, Flex, MySQL | Stock Trading Simulator
 [nam-tree](https://github.com/samchon/resume/blob/master/STORY.md#323-nam-tree)           | C++, Flex, MySQL | Custom Decision Tree for Complicate Model

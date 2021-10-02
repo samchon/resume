@@ -18,7 +18,10 @@
       - [3.1.2. TSTL](#312-tstl)
       - [3.1.3. TGrid](#313-tgrid)
       - [3.1.4. Mutex Server](#314-mutex-server)
-      - [3.1.5. Miscellaneous](#315-miscellaneous)
+      - [3.1.5. Nestia](#315-nestia)
+      - [3.1.6. Safe-TypeORM](#316-safe-typeorm)
+      - [3.1.7. Backend](#317-backend)
+      - [3.1.8 Miscellaneous](#318-miscellaneous)
     + [3.2. Private Projects](#32-private-projects)
       - [3.2.1. Hansung Timetable](#321-hansung-timetable)
       - [3.2.2. Samchon Simulation](#322-samchon-simulation)
@@ -97,12 +100,12 @@ DB/SQL       | 20 년       | 5 년    | ERD 설계에 능함
 더불어 그간 제가 개발했던 개인 및 상용 프로젝트들에 대한 상세 내역은, 아래 [3. My Projects](#3-my-projects) 및 [4. Commercial Projects](#4-commercial-projects) 단원에 정리해두었으니, 부디 참고해주시기 바랍니다.
 
   - 프로그래밍 경험: 22 년
-  - 총 상용 경력 63 개월
-    - 정규직: 50 개월
+  - 총 상용 경력 75 개월
+    - 정규직: 62 개월
     - 계약직: 13 개월
-  - 최종 급여
-    - 정규직: 1 억 원 / 1 년
-    - 계약직: 8,000 만 원 / 6 개월
+  - 이전 급여 (현재 비공개)
+    - 정규직: 1 억 원
+    - 계약직: 1.6 억 원
 
 Company                             | Entry Date | Leave Date | Form
 ------------------------------------|------------|------------|-------
@@ -112,6 +115,7 @@ Company                             | Entry Date | Leave Date | Form
 [히즈윌 부설연구소](#43-hiswill)     | 2015-11    | 2017-01    | 정규직
 [아이지넷](#44-aijinet)             | 2017-01    | 2019-12    | 정규직
 [아이지넷](#44-aijinet)             | 2020-01    | 2020-07    | 계약직
+아키드로우                          | 2021-11    | 재직중      | 정규직
 
 
 
@@ -234,7 +238,34 @@ Critical sections in the network level.
 
 또한, `mutex-server` 는 급작스러운 네트워크 연결 해제에 대한 안전 장치가 마련되어있습니다. 따라서 `mutex-server` 에 접속된 특정 클라이언트가 돌연 접속 종료된다하더라도, 해당 클라이언트가 취득한 모든 lock 과 시도했던 acquire 등은 모두 자동으로 반환 및 취소되기에, `mutex-server` 는 안전합니다.
 
-#### 3.1.5. Miscellaneous
+#### 3.1.5. Nestia
+https://github.com/samchon/nestia
+
+앞으로는 Swagger 주석 작성하지 마시고, SDK 전달해주세요. 
+
+Nestia 는 NestJS 로 작성한 백엔드 소스 코드를 컴파일 수준에사 분석하여, 클라이언트 개발자가 사용할 수 있는 SDK 라이브러리를 자동으로 만들어줍니다. 때문에 Nestia 를 사용하면, 이전처럼 API 문서를 만들기 위하여 swagger 주석을 작성하는 등의, 불필요한 작업을 일절 할 필요가 없어집니다. 
+
+이는 클라이언트 개발자도 동일하여, 이전처럼 swagger 문서를 해독하여 API 연동 인터페이스를 직접 만드는 일 따위의 수고스러움을 더 이상 감내하지 않아도 됩니다. 단지 nestia 가 만들어 준 sdk 를 import 하고, async await 심벌을 통하여 sdk 가 제공해주는 api 함수들을 호출하기만 하면 될 뿐입니다.
+
+#### 3.1.6. Safe-TypeORM
+https://github.com/samchon/safe-typeorm
+
+Safe-TypeORM 은, TypeORM 을 컴파일 수준에서 강화해주며, 앱 조인을 통한 퍼포먼스 튜닝 자동화 도구들을 제공해주는 라이브러리입니다. 본디 TypeORM 의 차기 버전을 기다리던 사용자 입장이었으되, 이를 기다리다 지쳐 직접 만들게 되었습니다.
+
+때문에 Safe-TypeORM 을 이용하면, SQL 쿼리를 작성하며 생기는 오류들이 모두 IDE 나 컴파일 단계에서 검출되며 자동 완성을 지원하기에, 안전한 쿼리를 매우 편리하게 작성할 수 있습니다. 그리고 사용자는 오직 ORM 과 JSON 인터페이스 설계에만 집중하면 되도록, SELECT 와 JOIN 및 INSERT 쿼리 등을 모두 자동으로 작성하고 최적화 해 줍니다.
+
+  - SQL 쿼리 작성시
+    - 에러가 IDE 및 컴파일 단계에서 검출
+    - 자동 완성 및 타입 힌트 지원
+  - 앱 조인이 매우 쉬우며, DB 조인과 인터페이스가 동일
+  - JSON 데이터 구성시, 조인 및 퍼포먼스 튜닝이 자동으로
+
+#### 3.1.7. Backend
+https://github.com/samchon/backend
+
+제가 재직 중인 아키드로우의 신입 백엔드 개발자들을 교육하기 위하여 특별히 만든 예제 프로젝트입니다. 동시에 위 [3.1.5. Nestia](#315-nestia) 와  [3.1.6. Safe-TypeORM](#316-safe-typeorm) 를 구체적으로 어떻게 사용하면 되는 지, 그에 대한 예제를 제공하기 위하여 만들기도 하였습니다.
+
+#### 3.1.8. Miscellaneous
 저는 [3.1.2. TSTL](#312-tstl) 과 [3.1.3. TGrid](#313-tgrid) 및 [3.1.4. Mutex Server](#314-mutex-server), 그리고 [4.3.2. 3D Bin Packing](#432-3d-bin-packing) 이외에도 다수의 오픈소스 라이브러리들을 제작, 배포한 바 있습니다. 
 
 이들 여타 라이브러리들은 주로 저 개인의 필요에 의해 제작하였으되, [ecol](https://github.com/samchon/ecol) 이나 [sxml](https://github.com/samchon/sxml) 처럼, 저도 모르는 새애 여러 사람에 의해 근근히 쓰이는 경우도 있었습니다.
