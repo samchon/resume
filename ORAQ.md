@@ -13,7 +13,7 @@
       - 이미지 한 장에 수백 MB ~ 수 GB 를 상회
       - 이를 20 프레임 단위로 이펙트 효과를 줄 수 있어야 함
     - 서버 전체 단위의 임계영역 제어 필요
-  - 초기 매뉴얼: [assets/manuals/oraq.pdf](assets/manuals/oraq.pdf)
+  - 초기 매뉴얼: [assets/manuals/oraq.pdf](https://github.com/samchon/resume/blob/master/assets/manuals/oraq.pdf)
 
 ## 1. Hardcore Difficulty
 OraQ (일본에서는 Selene TR-1) 는 제가 대학교를 졸업하고나서 처음 개발했던 상용 프로젝트입니다. 그리고 동시에, 제가 개발했던 모든 상용 프로젝트들을 통틀어서 가장 난이도가 높았으며, 기한 또한 제일 급박하였습니다.

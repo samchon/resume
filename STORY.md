@@ -18,9 +18,9 @@
       - [3.1.2. TSTL](#312-tstl)
       - [3.1.3. TGrid](#313-tgrid)
       - [3.1.4. Mutex Server](#314-mutex-server)
-      - [3.1.5. Nestia](#315-nestia)
-      - [3.1.6. Safe-TypeORM](#316-safe-typeorm)
-      - [3.1.7. Backend](#317-backend)
+      - [**3.1.5. Nestia**](#315-nestia)
+      - [**3.1.6. Safe-TypeORM**](#316-safe-typeorm)
+      - [**3.1.7. Backend**](#317-backend)
       - [3.1.8 Miscellaneous](#318-miscellaneous)
     + [3.2. Private Projects](#32-private-projects)
       - [3.2.1. Hansung Timetable](#321-hansung-timetable)
@@ -152,6 +152,7 @@ Company                             | Entry Date | Leave Date | Form
   - TSTL 의 Issues: https://github.com/samchon/tstl/issues?q=is%3Aissue
   - TGrid 의 Guide Documents: https://tgrid.com
   - Mutex Server 의 API Documents: https://mutex.dev/api
+  - Safe-TypeORM 의 README 문서: https://github.com/samchon/safe-typeorm
 
 또한, 회사에서 상용 프로젝트를 진행할 때도 이 점은 동일하며, 어떤 면에서는 오픈 소스보다 훨씬 철저하게 합니다. 상용 프로젝트 역시 모든 주요 개발 사안들에 대하여 issue 를 작성하고 있으며, 반드시 관련자들을 participants 로 등록하여 전파합니다. 
 
@@ -239,16 +240,18 @@ Critical sections in the network level.
 또한, `mutex-server` 는 급작스러운 네트워크 연결 해제에 대한 안전 장치가 마련되어있습니다. 따라서 `mutex-server` 에 접속된 특정 클라이언트가 돌연 접속 종료된다하더라도, 해당 클라이언트가 취득한 모든 lock 과 시도했던 acquire 등은 모두 자동으로 반환 및 취소되기에, `mutex-server` 는 안전합니다.
 
 #### 3.1.5. Nestia
-https://github.com/samchon/nestia
+Automatic SDK generator for the NestJS.
 
-앞으로는 Swagger 주석 작성하지 마시고, SDK 전달해주세요. 
+  - Repository: https://github.com/samchon/nestia
 
 Nestia 는 NestJS 로 작성한 백엔드 소스 코드를 컴파일 수준에사 분석하여, 클라이언트 개발자가 사용할 수 있는 SDK 라이브러리를 자동으로 만들어줍니다. 때문에 Nestia 를 사용하면, 이전처럼 API 문서를 만들기 위하여 swagger 주석을 작성하는 등의, 불필요한 작업을 일절 할 필요가 없어집니다. 
 
 이는 클라이언트 개발자도 동일하여, 이전처럼 swagger 문서를 해독하여 API 연동 인터페이스를 직접 만드는 일 따위의 수고스러움을 더 이상 감내하지 않아도 됩니다. 단지 nestia 가 만들어 준 sdk 를 import 하고, async await 심벌을 통하여 sdk 가 제공해주는 api 함수들을 호출하기만 하면 될 뿐입니다.
 
 #### 3.1.6. Safe-TypeORM
-https://github.com/samchon/safe-typeorm
+Enhance TypeORM in the compilation level.
+
+  - Repository: https://github.com/samchon/safe-typeorm
 
 Safe-TypeORM 은, TypeORM 을 컴파일 수준에서 강화해주며, 앱 조인을 통한 퍼포먼스 튜닝 자동화 도구들을 제공해주는 라이브러리입니다. 본디 TypeORM 의 차기 버전을 기다리던 사용자 입장이었으되, 이를 기다리다 지쳐 직접 만들게 되었습니다.
 
@@ -263,7 +266,13 @@ Safe-TypeORM 은, TypeORM 을 컴파일 수준에서 강화해주며, 앱 조인
 #### 3.1.7. Backend
 https://github.com/samchon/backend
 
-제가 재직 중인 아키드로우의 신입 백엔드 개발자들을 교육하기 위하여 특별히 만든 예제 프로젝트입니다. 동시에 위 [3.1.5. Nestia](#315-nestia) 와  [3.1.6. Safe-TypeORM](#316-safe-typeorm) 를 구체적으로 어떻게 사용하면 되는 지, 그에 대한 예제를 제공하기 위하여 만들기도 하였습니다.
+제가 현재 재직 중인 아키드로우에는, 신입 백엔드 개발자들이 많습니다. [samchon/backend](https://github.com/samchon/baackend) 는 이들 신입 백엔드 개발자들을 보다 체계적으로 교육하기 위하여 특별히 만든, 일종의 예제 프로젝트입니다. 
+
+요구사항을 분석하여 DB 아키텍처와 API 인터페이스를 설계하고, 테스트 자동화 프로그램을 작성한 후, 메인 서버 프로그램을 작성하는 일련의 과정을 모범적으로 보여주고 위하여 제작하였습니다. 동시에 무중단 업데이트나 스케쥴러 구성을 어떻게 하는 지 등, 백엔드의 인프라를 구축함에 있어 특정 벤더에 영향받지 않으며 로컬에서도 재현 가능한, 백엔드 환경 구성 등을 다루고 있습니다.
+
+더하여 이 신입 백엔드 개발자들에게 교육을 해 줌에 있어, 본인이 그간 백엔드를 개발하며 느껴왔던 여러 불편하고 비효율적인 점들을 굳이 되물림하지 않았으면 좋겠다는 생각이 있었습니다. 때문에 이 교육 자료를 만듦에 있어, [3.1.5. Nesita](#315-nestia) 나 [3.1.6. Safe-TypeORM](#316-safe-typeorm) 등도 함께 개발하게 되었습니다. 
+
+API 에 관하여 불필요한 문서 작성이나 중복 인터페이스 개발을 줄이고, DB 를 개발함에 있어 태반의 에러를 컴파일 타임에 잡아주고, 신입에게 어려운 DB 퍼포먼스 튜닝을 라이브러리가 대신 해 주도록 말입니다. 
 
 #### 3.1.8. Miscellaneous
 저는 [3.1.2. TSTL](#312-tstl) 과 [3.1.3. TGrid](#313-tgrid) 및 [3.1.4. Mutex Server](#314-mutex-server), 그리고 [4.3.2. 3D Bin Packing](#432-3d-bin-packing) 이외에도 다수의 오픈소스 라이브러리들을 제작, 배포한 바 있습니다. 
