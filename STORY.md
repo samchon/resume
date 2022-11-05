@@ -20,7 +20,7 @@
       - [3.1.4. Mutex Server](#314-mutex-server)
       - [**3.1.5. Nestia**](#315-nestia)
       - [**3.1.6. Safe-TypeORM**](#316-safe-typeorm)
-      - [**3.1.7. Backend**](#317-backend)
+      - [**3.1.7. **](#317-backend)
       - [3.1.8 Miscellaneous](#318-miscellaneous)
     + [3.2. Private Projects](#32-private-projects)
       - [3.2.1. Hansung Timetable](#321-hansung-timetable)
@@ -266,7 +266,7 @@ Safe-TypeORM 은, TypeORM 을 컴파일 수준에서 강화해주며, 앱 조인
 #### 3.1.7. Backend
 https://github.com/samchon/backend
 
-제가 현재 재직 중인 아키드로우에는, 신입 백엔드 개발자들이 많습니다. [samchon/backend](https://github.com/samchon/baackend) 는 이들 신입 백엔드 개발자들을 보다 체계적으로 교육하기 위하여 특별히 만든, 일종의 예제 프로젝트입니다. 
+제가 현재 재직 중인 아키드로우에는, 신입 백엔드 개발자들이 많습니다. [samchon/backend](https://github.com/samchon/backend) 는 이들 신입 백엔드 개발자들을 보다 체계적으로 교육하기 위하여 특별히 만든, 일종의 예제 프로젝트입니다. 
 
 이 예제 프로젝트는, 요구사항을 분석하여 DB 아키텍처와 API 인터페이스를 설계하고 테스트 자동화 프로그램을 작성한 후 메인 서버 프로그램을 작성하는 등, 일련의 백엔드 설계 및 개발 과정을 모범적으로 보여주기 위하여 제작하였습니다. 동시에 무중단 업데이트나 스케쥴러 구성을 어떻게 하는 지 등, 백엔드의 인프라를 구축함에 있어 특정 벤더에 영향받지 않으며 로컬에서도 재현 가능한, 중립적인 백엔드 환경 구성 등을 다루고 있습니다.
 
