@@ -14,15 +14,18 @@
     + [2.5. Test Driven Development](#25-test-driven-development)
   * [**3. My Projects**](#3-my-projects)
     + [3.1. Open Source Projets](#31-open-source-projets)
-      - [3.1.1. Samchon Framework](#311-samchon-framework)
-      - [3.1.2. TSTL](#312-tstl)
-      - [3.1.3. TGrid](#313-tgrid)
-      - [3.1.4. Mutex Server](#314-mutex-server)
-      - [**3.1.5. Nestia**](#315-nestia)
-      - [**3.1.6. Safe-TypeORM**](#316-safe-typeorm)
-      - [**3.1.7. **](#317-backend)
-      - [3.1.8 Miscellaneous](#318-miscellaneous)
-    + [3.2. Private Projects](#32-private-projects)
+      - [3.1.1. Typia](#311-typia)
+      - [3.1.2. Nestia](#312-nestia)
+      - [3.1.3. Reactia](#313-reactia)
+      - [3.1.4. Fake Iamport Server](#314-fake-iamport-server)
+      - [3.1.5. Fake Toss Payments Server](#315-fake-toss-payments-server)
+      - [3.1.6. Backend](#316-backend)
+      - [3.1.7. Safe TypeORM](#317-safe-typeorm)
+      - [3.1.8. TSTL](#318-tstl)
+      - [3.1.9. TGrid](#319-tgrid)
+      - [3.1.10. Mutex Server](#3110-mutex-server)
+      - [3.1.11. Samchon Framework](#3111-samchon-framework)
+    + [3.2. University Projects](#32-university-projects)
       - [3.2.1. Hansung Timetable](#321-hansung-timetable)
       - [3.2.2. Samchon Simulation](#322-samchon-simulation)
       - [3.2.3. Nam Tree](#323-nam-tree)
@@ -45,6 +48,9 @@
       - [4.4.3. Insurance Engine](#443-insurance-engine)
       - [4.4.4. Private Engine for Special Insurer](#444-private-engine-for-special-insurer)
       - [4.4.5. TypeScript Migration](#445-typescript-migration)
+
+
+
 
 ## 1. Outline
 ### 1.1. Profile
@@ -90,22 +96,19 @@
 Skill        | Experiences | Careers | Note
 -------------|-------------|---------|-----------------------------------
 C++          | 12 년       | 3 년    | 최신 STL 과 Template Meta Programming 에 능함
-TypeScript   | 8 년        | 4 년    | 현 한국 랭킹 1 위 (git-awards 기준)
+TypeScript   | 10 년       | 6 년    | 현 한국 랭킹 1 위 (git-awards 기준)
 ActionScript | 20 년       | 2 년    | Flex Architecture 를 통해 고급 설계에 입문함
-DB/SQL       | 20 년       | 5 년    | ERD 설계에 능함
+DB/SQL       | 22 년       | 7 년    | ERD 설계에 능함
 
 ### 1.5. Experiences
-저는 11 살에 프로그래밍에 입문한 뒤, 22 년을 쉬지 않고 꾸준히 개발에 매진해 왔습니다. 그리고 상용 경력은 2014 년에 대학교를 졸업한 이래, 만 5 년 이상을 근무하였으며, 이로써 올해로 6 년차가 되었습니다.
+저는 11 살에 프로그래밍에 입문한 뒤, 25 년을 쉬지 않고 꾸준히 개발에 매진해 왔습니다. 그리고 상용 경력은 2014 년에 대학교를 졸업한 이래, 만 5 년 이상을 근무하였으며, 이로써 올해로 6 년차가 되었습니다.
 
 더불어 그간 제가 개발했던 개인 및 상용 프로젝트들에 대한 상세 내역은, 아래 [3. My Projects](#3-my-projects) 및 [4. Commercial Projects](#4-commercial-projects) 단원에 정리해두었으니, 부디 참고해주시기 바랍니다.
 
-  - 프로그래밍 경험: 22 년
-  - 총 상용 경력 75 개월
-    - 정규직: 62 개월
+  - 프로그래밍 경험: 25 년
+  - 총 상용 경력 92 개월
+    - 정규직: 79 개월
     - 계약직: 13 개월
-  - 이전 급여 (현재 비공개)
-    - 정규직: 1 억 원
-    - 계약직: 1.6 억 원
 
 Company                             | Entry Date | Leave Date | Form
 ------------------------------------|------------|------------|-------
@@ -115,6 +118,7 @@ Company                             | Entry Date | Leave Date | Form
 [히즈윌 부설연구소](#43-hiswill)     | 2015-11    | 2017-01    | 정규직
 [아이지넷](#44-aijinet)             | 2017-01    | 2019-12    | 정규직
 [아이지넷](#44-aijinet)             | 2020-01    | 2020-07    | 계약직
+집토스                              | 2020-08    | 2020-10    | 정규직
 아키드로우                          | 2021-11    | 재직중      | 정규직
 
 
@@ -126,7 +130,7 @@ Company                             | Entry Date | Leave Date | Form
 
 지금 와서 생각해보면 참 간단한 홈페이지에 시시콜콜한 답변형 게시판이었지만, 당시의 저는 코딩을 하다가 막혀서 쩔쩔맬 때가 되면, 그것을 악몽으로 다시 꿀 정도로 고생하기도 했었습니다. 그리고 그렇게 1 년을 고생 고생한 끝에 올 플래시 홈페이지를 완성하던 날, 그 날의 성취감과 환희는 아직도 제 기억에 고스란히 남아있습니다,
 
-그리고 그 날 이후 프로그래밍은 저의 제 1 취미가 되었고, 어느덧 22 년이 지났습니다. 지난 22 년 간 개발에서 손을 뗀 적이 없으며, 오늘날에도 여전히 코딩은 저의 제 1 취미입니다. 때문에 저는 일에 관하여 저를 소개함에 있어, 종종 "덕업일치" 라는 표현을 씁니다. 취미가 곧 직업이 되어, 세상 참 재미나게 살고 있다는 의미로써 말입니다.
+그리고 그 날 이후 프로그래밍은 저의 제 1 취미가 되었고, 어느덧 25 년이 지났습니다. 지난 25 년 간 개발에서 손을 뗀 적이 없으며, 오늘날에도 여전히 코딩은 저의 제 1 취미입니다. 때문에 저는 일에 관하여 저를 소개함에 있어, 종종 "덕업일치" 라는 표현을 씁니다. 취미가 곧 직업이 되어, 세상 참 재미나게 살고 있다는 의미로써 말입니다.
 
 ### 2.2. Self Improvement
 ![Github Daily Contributions](assets/images/grass.gif)
@@ -151,8 +155,7 @@ Company                             | Entry Date | Leave Date | Form
 
   - TSTL 의 Issues: https://github.com/samchon/tstl/issues?q=is%3Aissue
   - TGrid 의 Guide Documents: https://tgrid.com
-  - Mutex Server 의 API Documents: https://mutex.dev/api
-  - Safe-TypeORM 의 README 문서: https://github.com/samchon/safe-typeorm
+  - Typia 의 README 문서: https://github.com/samchon/typia
 
 또한, 회사에서 상용 프로젝트를 진행할 때도 이 점은 동일하며, 어떤 면에서는 오픈 소스보다 훨씬 철저하게 합니다. 상용 프로젝트 역시 모든 주요 개발 사안들에 대하여 issue 를 작성하고 있으며, 반드시 관련자들을 participants 로 등록하여 전파합니다. 
 
@@ -176,79 +179,100 @@ Company                             | Entry Date | Leave Date | Form
   - Github Actions
     - https://github.com/samchon/tstl/runs/837330734?check_suite_focus=true
     - https://github.com/samchon/tgrid/runs/837437346?check_suite_focus=true
-    - https://github.com/samchon/mutex-server/runs/839743359?check_suite_focus=true
-
-> #### My Opinion
-> 혹자는 Test Driven Development 를 준수하면, 개발 시간이 더 오래 걸리고 이를 지키는 과정이 무던히도 번거롭다고 말합니다. 하지만 저는, 오히려 이 방법 TDD 야말로, 프로그램을 가장 빠르고 안전하게 만드는, 최선의 지름길이자 정도라고 생각합니다.
+    - https://github.com/samchon/typia/actions/runs/3772134126/jobs/6412898042#step:7:2332
 
 
 
 
 ## 3. My Projects
 ### 3.1. Open Source Projets 
-#### 3.1.1. Samchon Framework
-ONN (Object Oriented Network) Framework for C++ & Flex.
+#### 3.1.1. Typia
+https://github.com/samchon/typia
 
-  - Repository: https://github.com/samchon/framework
-  - Guide Documents: https://github.com/samchon/framework/wiki
-  - API Documents
-    - C++: http://samchon.github.io/framework/api/cpp/
-    - Flex: http://samchon.github.io/framework/api/v1.0/flex/
-  - Note: 공개소프트웨어개발자대회 2015 동상 수상
+Typia 는 세상에서 가장 쉽고 빠른 Runtime Validator 라이브러리입니다. 
 
-`samchon-framework` 는, 과거 제가 알고리즘 및 최적화에 관련된 것은 C++ 로 만들고 프론트나 데모 어플리케이션 등은 Flex 로 만들던 시절에, C++ 과 Flex 의 원활한 연동을 위해 만들었던 네트워크 프레임워크입니다.
+사용자가 작성한 타입을 소스 코드 수준에서 분석하고, AOT (Ahead of Time) 컴파일을 통해 최적의 코드를 생성하기에, 단 한줄의 코드만으로 validation 을 행할 수 있수 있습니다. 그리고 그 속도는 무려 `class-validator` 대비 최대 15,000 배에 이릅니다.
 
-OON (Object Oriented Network) 와 Invoke 라는 특유의 패턴을 통하여, 복잡한 네트워크 시스템도 객체적인 접근을 통하여 쉽게 풀어나갈 수 있는 것이 특징입니다. 저의 개인 프로젝트인 [3.2.2. Samchon Simulation](#322-samchon-simulation) 과, 저의 첫 상용 프로젝트의 [4.1.1. OraQ (Selene TR-1)](#411-oraq-selene-tr-1) 이, 바로 이 `samchon-framework` 를 사용해 만들어졌습니다.
+이외에도 JSON 및 Protobuf 관련 함수들을 지원하며, 이 또한 validation 때와 마찬가지로 단 한 줄의 코드만으로, 세상에서 가장 빠른 serialization/de-serialization 을 경험할 수 있습니다.
 
-다만, `samchon-framework` 의 지원 언어에 TypeScript 를 추가하고 OON (Object Oriented Network) 에 대하여 더 심도있게 연구하는 와중에, RFC (Remote Function Call) 에 대한 실마리를 찾게 되었습니다. 때문에 2018 년 말, 오래도록 개발해오던 `samchon-framework` 를 중단하고, [3.1.3. TGrid](#313-tgrid) 를 만들게 됩니다.
+![Typia Benchmark](https://github.com/samchon/typia/raw/master/benchmark/results/11th%20Gen%20Intel(R)%20Core(TM)%20i5-1135G7%20%40%202.40GHz/images/is.svg)
 
-#### 3.1.2. TSTL
-TypeScript Standard Template Library.
+#### 3.1.2. Nestia
+https://github.com/samchon/nestia
 
-  - Repository: https://github.com/samchon/tstl
-  - API Documents: https://tstl.dev/api
-  - Note: 공개소프트웨어개발자대회 2017 은상 수상
+A set of helper libraries for NestJS.
 
-`tstl` 은 C++ STL (Standard Template Library: C++ 표준화 위원회가 매 3 년마다 발표하는 C++ 표준 인터페이스 규약) 의 인터페이스를, TypeScript 로 구현한 프로젝트입니다. 따라서 C++ 에서 제공되는 다양한 표준 라이브러리들을, TypeScript 에서 동일하게 제공하고 있습니다.
+Nestia 는 먼저 `@nestia/core` 라 하여, 위 [typia](#311-typia) 를 랩핑함으로써, 종래의  `class-validator` 대비 15,000배 빠른 decorator 들을 지원해주는 라이브러리입니다. 또한, 10 배 빠른 (그리면서도 더 안전한) JSON 변환 속도를 지원합니다.
 
-제가 `tstl` 을 만든 가장 큰 이유 중 하나는, 바로 C++ Migration 에 있습니다. 저는 알고리즘을 연구 및 개발할 때, TypeScript 로 prototype 을 빠르게 제작하여 검증해보고, 나중에 C++ 로 옮기며 이를 최적화하고는 합니다. 그리고 바로 이 때, TypeScript 로 만든 prototype 의 주요 인터페이스 및 기저 코드가 C++ 과 유사하면 마이그레이션이 매우 수월하기에, 번거로움을 감수하고라도 `tstl` 을 만든 것입니다.
+그리고 `@nestia/sdk` 는 NestJS 로 작성한 백엔드 소스 코드를 컴파일 수준에사 분석, 클라이언트 개발자가 사용할 수 있는 SDK (Software Development Kit) 라이브러리를 자동으로 만들어주는 라이브러리입니다. 물론, Swagger Documents 를 생성하는 것 또한 가능하며, 종래의 `@nestjs/swagger` 대비 훨씬 안전하고 편리합니다.
 
-다만 이렇게 만들어놓고보니, `tstl` 이 JS 기본 라이브러리가 미처 지원하지 못하는 다양한 자료구조나 알고리즘 등을 보완해주기에, 오픈소스로 널리 공개하게 되었습니다. 더불어 C++ 표준 스펙은 아니되, TypeScript 개발환경 상 부디 있었으면 좋겠다 싶은 기능들은, extension module 로써 제공하고 있습니다.
+```typescript
+import { Controller } from "@nestjs/common";
+import { TypedBody, TypedRoute } from "@nestia/core";
 
-#### 3.1.3. TGrid
-TypeScript Grid Computing Framework.
+import type { IBbsArticle } from "@bbs-api/structures/IBbsArticle";
 
-  - Repository: https://github.com/samchon/tgrid
-  - Guide Documents: https://tgrid.com
-  - API Documents: https://tgrid.com/api
-  - Key Concept: RFC (Remote Function Call)
+@Controller("bbs/articles")
+export class BbsArticlesController {
+    /** 
+     * Store a new content.
+     * 
+     * @param inupt Content to store
+     * @returns Newly archived article
+     */
+    @TypedRoute.Post() // 10x faster and safer JSON.stringify()
+    public async store(
+        @TypedBody() input: IBbsArticle.IStore // super-fast validator
+    ): Promise<IBbsArticle>; 
+        // do not need DTO class definition, 
+        // just fine with interface
+}
+```
 
-`tgrid` 는 [3.1.2. TSTL](#312-tstl) 의 thread 및 network 에 관한 extension module 이며 동시에, TypeScript 에서 RFC (Remote Function Call) 개념을 통해, Grid Computing 을 매우 쉽게 구현할 수 있도록 도와주는 프레임워크입니다.
 
-이 Remote Function Call 은 원격 시스템의 함수를 마치 자신의 것인양 직접 호출할 수 있다라는 의미로써, 이를 활용하면 여러 대의 컴퓨터를 네트워크 통신으로 묶어 만드는 분산처리시스템의 프로그램 코드와, 한 대의 컴퓨터로 만드는 프로그램의 비지니스 로직 코드가 모두 동일 (similar) 해지게 됩니다.
+#### 3.1.3. Reactia
+https://github.com/samchon/reactia
 
-더불어 `tgrid` 는 여지껏 제가 만든 오픈소스 프로젝트 중, 문서화가 가장 잘 된 프로젝트라 자부합니다. [가이드 문서](https://tgrid.com) 를 통하여 `tgrid` 의 다양한 개념을 익힐 수 있고, 제공되는 다양한 예제 프로젝트들을 따라하면서 Remote Function Call 의 유용성을 능히 체험할 수 있습니다.
+Reactia 는 TypeScrit Type 정보를 컴파일러 수준에서 분석, React 컴포넌트를 자동으로 생성하고 배치해주는 라이브러리입니다. 
 
-#### 3.1.4. Mutex Server
-Critical sections in the network level.
+위 [typia](#311-typia) 라이브러리의 애드온 프로젝트로써, 현재는 개별 타입 수준의 자동화만 가능하지만, 곧 [nestia](#312-nestia) 를 확장함으로써, `NestJS` 로 제작한 백엔드 서버 전체에 대한 프론트 어플리케이션 개발 자동화도 지원할 예정입니다.
 
-  - Repository: https://github.com/samchon/mutex-server
-  - API Documents: https://mutex.dev/api
+![Reactia Example](https://user-images.githubusercontent.com/13158709/199074008-46b2dd67-02be-40b1-aa0f-74ac41f3e0a7.png)
 
-`mutex-server` 는 C++ STL 에서 정의한 임계영역에 관련된 컴포넌트들을, 개별 컴퓨터가 아닌 네트워크 수준에서 사용할 수 있게 해 주는, `tstl` 의 critical section 에 관련된 extension module 입니다. 따라서 `mutex-server` 를 이용하면, 뮤텍스나 세마포어 등의 임계영역 관련 컴포넌트들을, 전 네트워크 영역에서 사용할 수 있습니다.
+#### 3.1.4. Fake Iamport Server
+https://github.com/samchon/fake-iamport-server
 
-또한, `mutex-server` 는 급작스러운 네트워크 연결 해제에 대한 안전 장치가 마련되어있습니다. 따라서 `mutex-server` 에 접속된 특정 클라이언트가 돌연 접속 종료된다하더라도, 해당 클라이언트가 취득한 모든 lock 과 시도했던 acquire 등은 모두 자동으로 반환 및 취소되기에, `mutex-server` 는 안전합니다.
+가짜 아임포트 서버.
 
-#### 3.1.5. Nestia
-Automatic SDK generator for the NestJS.
+`fake-iamport-server` 는 아임포트 서버의 API 스펙을 파악한 뒤, 이를 흉내내어 만든, 테스트용 가짜 서버입니다. 프론트 어플리케이션을 통한 수기 테스트가 아닌, 백엔드 서버 자체의 테스트 자동화 프로그램을 통한 상시 검증을 위하여 제작하였습니다.
 
-  - Repository: https://github.com/samchon/nestia
+또한, 이를 위 [@nestia/sdk](#312-nestia) 로 생성한 SDK (Software Development Kit) 라이브러리 및 Swagger Documents 가 있습니다. 본디 `fake-iamport-server` 의 API 스펙이 실제 아임포트 결제 서버와 동일하기에, 이 SDK 라이브러리 및 Swagger Documents 는 클라이언트에서 실제와 동일하게 사용할 수 있습니다.
 
-Nestia 는 NestJS 로 작성한 백엔드 소스 코드를 컴파일 수준에사 분석하여, 클라이언트 개발자가 사용할 수 있는 SDK 라이브러리를 자동으로 만들어줍니다. 때문에 Nestia 를 사용하면, 이전처럼 API 문서를 만들기 위하여 swagger 주석을 작성하는 등의, 불필요한 작업을 일절 할 필요가 없어집니다. 
+> 그리고 아임포트가 공식 제공하는 API 문서보다 퀄리티가 높습...
 
-이는 클라이언트 개발자도 동일하여, 이전처럼 swagger 문서를 해독하여 API 연동 인터페이스를 직접 만드는 일 따위의 수고스러움을 더 이상 감내하지 않아도 됩니다. 단지 nestia 가 만들어 준 sdk 를 import 하고, async await 심벌을 통하여 sdk 가 제공해주는 api 함수들을 호출하기만 하면 될 뿐입니다.
+#### 3.1.5. Fake Toss Payments Server
+https://github.com/samchon/fake-toss-payments-server
 
-#### 3.1.6. Safe-TypeORM
+가짜 토스 페이먼츠 서버.
+
+위 [fake-iamport-server](#314-fake-iamport-server) 와 동일한 목적으로, 토스 페이먼츠 서버에 대하여 만든 가짜 서버입니다.
+
+물론, SDK 라이브러리 및 Swagger Documents 의 경우도 [fake-iamport-server](#314-fake-iamport-server) 때와 동일합니다.
+
+#### 3.1.6. Backend
+https://github.com/samchon/backend
+
+제가 현재 재직 중인 아키드로우에는, 신입 백엔드 개발자들이 많습니다. [samchon/backend](https://github.com/samchon/baackend) 는 이들 신입 백엔드 개발자들을 보다 체계적으로 교육하기 위하여 특별히 만든, 일종의 예제 프로젝트입니다. 
+
+이 예제 프로젝트는, 요구사항을 분석하여 DB 아키텍처와 API 인터페이스를 설계하고 테스트 자동화 프로그램을 작성한 후 메인 서버 프로그램을 작성하는 등, 일련의 백엔드 설계 및 개발 과정을 모범적으로 보여주기 위하여 제작하였습니다. 동시에 무중단 업데이트나 스케쥴러 구성을 어떻게 하는 지 등, 백엔드의 인프라를 구축함에 있어 특정 벤더에 영향받지 않으며 로컬에서도 재현 가능한, 중립적인 백엔드 환경 구성 등을 다루고 있습니다.
+
+더하여 이 신입 백엔드 개발자들에게 교육을 해 줌에 있어, 본인이 그간 백엔드를 개발하며 느껴왔던 여러 불편하고 비효율적인 점들을 굳이 되물림하지 않았으면 좋겠다는 생각을 하였습니다. 이에 교육 자료를 만듦에 있어, [3.1.5. Nesita](#315-nestia) 나 [3.1.6. Safe-TypeORM](#316-safe-typeorm) 등도 함께 개발하게 되었습니다. 
+
+  - API 를 만듦에 있어 swaggeer 등의 불필요한 문서 작성을 하지 않는다.
+  - SQL 을 작성함에 있어, 에러를 컴파일 타임에 잡아준다.
+  - 신입에게 어려운 DB 퍼포먼스 튜닝을, 라이브러리 [safe-typeorm](#316-safe-typeorm) 이 대신 해 준다. 
+
+#### 3.1.7. Safe TypeORM
 Enhance TypeORM in the compilation level.
 
   - Repository: https://github.com/samchon/safe-typeorm
@@ -263,34 +287,61 @@ Safe-TypeORM 은, TypeORM 을 컴파일 수준에서 강화해주며, 앱 조인
   - 앱 조인이 매우 쉬우며, DB 조인과 인터페이스가 동일
   - JSON 데이터 구성시, 조인 및 퍼포먼스 튜닝이 자동으로
 
-#### 3.1.7. Backend
-https://github.com/samchon/backend
+#### 3.1.8. TSTL
+TypeScript Standard Template Library.
 
-제가 현재 재직 중인 아키드로우에는, 신입 백엔드 개발자들이 많습니다. [samchon/backend](https://github.com/samchon/backend) 는 이들 신입 백엔드 개발자들을 보다 체계적으로 교육하기 위하여 특별히 만든, 일종의 예제 프로젝트입니다. 
+  - Repository: https://github.com/samchon/tstl
+  - API Documents: https://samchon.github.com/tstl/api
+  - Note: 공개소프트웨어개발자대회 2017 은상 수상
 
-이 예제 프로젝트는, 요구사항을 분석하여 DB 아키텍처와 API 인터페이스를 설계하고 테스트 자동화 프로그램을 작성한 후 메인 서버 프로그램을 작성하는 등, 일련의 백엔드 설계 및 개발 과정을 모범적으로 보여주기 위하여 제작하였습니다. 동시에 무중단 업데이트나 스케쥴러 구성을 어떻게 하는 지 등, 백엔드의 인프라를 구축함에 있어 특정 벤더에 영향받지 않으며 로컬에서도 재현 가능한, 중립적인 백엔드 환경 구성 등을 다루고 있습니다.
+`tstl` 은 C++ STL (Standard Template Library: C++ 표준화 위원회가 매 3 년마다 발표하는 C++ 표준 인터페이스 규약) 의 인터페이스를, TypeScript 로 구현한 프로젝트입니다. 따라서 C++ 에서 제공되는 다양한 표준 라이브러리들을, TypeScript 에서 동일하게 제공하고 있습니다.
 
-더하여 이 신입 백엔드 개발자들에게 교육을 해 줌에 있어, 본인이 그간 백엔드를 개발하며 느껴왔던 여러 불편하고 비효율적인 점들을 굳이 되물림하지 않았으면 좋겠다는 생각을 하였습니다. 이에 교육 자료를 만듦에 있어, [3.1.5. Nesita](#315-nestia) 나 [3.1.6. Safe-TypeORM](#316-safe-typeorm) 등도 함께 개발하게 되었습니다. 
+제가 `tstl` 을 만든 가장 큰 이유 중 하나는, 바로 C++ Migration 에 있습니다. 저는 알고리즘을 연구 및 개발할 때, TypeScript 로 prototype 을 빠르게 제작하여 검증해보고, 나중에 C++ 로 옮기며 이를 최적화하고는 합니다. 그리고 바로 이 때, TypeScript 로 만든 prototype 의 주요 인터페이스 및 기저 코드가 C++ 과 유사하면 마이그레이션이 매우 수월하기에, 번거로움을 감수하고라도 `tstl` 을 만든 것입니다.
 
-  - API 를 만듦에 있어 swaggeer 등의 불필요한 문서 작성을 하지 않는다.
-  - SQL 을 작성함에 있어, 에러를 컴파일 타임에 잡아준다.
-  - 신입에게 어려운 DB 퍼포먼스 튜닝을, 라이브러리 [safe-typeorm](#316-safe-typeorm) 이 대신 해 준다. 
+다만 이렇게 만들어놓고보니, `tstl` 이 JS 기본 라이브러리가 미처 지원하지 못하는 다양한 자료구조나 알고리즘 등을 보완해주기에, 오픈소스로 널리 공개하게 되었습니다. 더불어 C++ 표준 스펙은 아니되, TypeScript 개발환경 상 부디 있었으면 좋겠다 싶은 기능들은, extension module 로써 제공하고 있습니다.
 
-#### 3.1.8. Miscellaneous
-저는 [3.1.2. TSTL](#312-tstl) 과 [3.1.3. TGrid](#313-tgrid) 및 [3.1.4. Mutex Server](#314-mutex-server), 그리고 [4.3.2. 3D Bin Packing](#432-3d-bin-packing) 이외에도 다수의 오픈소스 라이브러리들을 제작, 배포한 바 있습니다. 
+#### 3.1.9. TGrid
+TypeScript Grid Computing Framework.
 
-이들 여타 라이브러리들은 주로 저 개인의 필요에 의해 제작하였으되, [ecol](https://github.com/samchon/ecol) 이나 [sxml](https://github.com/samchon/sxml) 처럼, 저도 모르는 새애 여러 사람에 의해 근근히 쓰이는 경우도 있었습니다.
+  - Repository: https://github.com/samchon/tgrid
+  - Guide Documents: https://tgrid.com
+  - API Documents: https://tgrid.com/api
+  - Key Concept: RFC (Remote Function Call)
 
-  - tiny libaries
-    - [cagen](https://github.com/samchon/cagen): 경우의 수 생성기
-    - [ecol](https://github.com/samchon/ecol): Event Collections
-    - [sxml](https://github.com/samchon/sxml): Simple XML library
-  - plugins for others libraries
-    - [typeorm-model](https://github.com/samchon/typeorm-model): TypeORM 에서 Laravel 스타일의 Model 을 구현
-    - [gitbook-plugin-import](https://github.com/samchon/gitbook-plugin-import): Gitbook 에서 문서 간 import 태그 구현
-    - [gitbook-plugin-hide-navigation-buttons](https://github.com/samchon/gitbook-plugin-hide-navigation-buttons): 불필요한 navigation 버튼 가리기
-    - [gitbook-plugin-scroll-to-top](https://github.com/samchon/gitbook-plugin-scroll-to-top): 페이지 최상위로 이동 버튼 추가
-    - [typedoc-plugin-exclude-references](https://github.com/samchon/typedoc-plugin-exclude-references): TypeDoc 에서 module 모드 사용시 reference 감추기
+`tgrid` 는 [3.1.8. TSTL](#318-tstl) 의 thread 및 network 에 관한 extension module 이며 동시에, TypeScript 에서 RFC (Remote Function Call) 개념을 통해, Grid Computing 을 매우 쉽게 구현할 수 있도록 도와주는 프레임워크입니다.
+
+이 Remote Function Call 은 원격 시스템의 함수를 마치 자신의 것인양 직접 호출할 수 있다라는 의미로써, 이를 활용하면 여러 대의 컴퓨터를 네트워크 통신으로 묶어 만드는 분산처리시스템의 프로그램 코드와, 한 대의 컴퓨터로 만드는 프로그램의 비지니스 로직 코드가 모두 동일 (similar) 해지게 됩니다.
+
+더불어 `tgrid` 는 여지껏 제가 만든 오픈소스 프로젝트 중, 처음으로 문서화에 큰 공을 들여본 프로젝트입니다. [가이드 문서](https://tgrid.com) 를 통하여 `tgrid` 의 다양한 개념을 익힐 수 있고, 제공되는 다양한 예제 프로젝트들을 따라하면서 Remote Function Call 의 유용성을 능히 체험할 수 있습니다.
+
+#### 3.1.10. Mutex Server
+Critical sections in the network level.
+
+  - Repository: https://github.com/samchon/mutex-server
+  - API Documents: https://mutex.dev/api
+
+`mutex-server` 는 C++ STL 에서 정의한 임계영역에 관련된 컴포넌트들을, 개별 컴퓨터가 아닌 네트워크 수준에서 사용할 수 있게 해 주는, `tstl` 의 critical section 에 관련된 extension module 입니다. 따라서 `mutex-server` 를 이용하면, 뮤텍스나 세마포어 등의 임계영역 관련 컴포넌트들을, 전 네트워크 영역에서 사용할 수 있습니다.
+
+또한, `mutex-server` 는 급작스러운 네트워크 연결 해제에 대한 안전 장치가 마련되어있습니다. 따라서 `mutex-server` 에 접속된 특정 클라이언트가 돌연 접속 종료된다하더라도, 해당 클라이언트가 취득한 모든 lock 과 시도했던 acquire 등은 모두 자동으로 반환 및 취소되기에, `mutex-server` 는 안전합니다.
+
+#### 3.1.11. Samchon Framework
+ONN (Object Oriented Network) Framework for C++ & Flex.
+
+  - Repository: https://github.com/samchon/framework
+  - Guide Documents: https://github.com/samchon/framework/wiki
+  - API Documents
+    - C++: http://samchon.github.io/framework/api/cpp/
+    - Flex: http://samchon.github.io/framework/api/v1.0/flex/
+  - Note: 공개소프트웨어개발자대회 2015 동상 수상
+
+`samchon-framework` 는, 과거 제가 알고리즘 및 최적화에 관련된 것은 C++ 로 만들고 프론트나 데모 어플리케이션 등은 Flex 로 만들던 시절에, C++ 과 Flex 의 원활한 연동을 위해 만들었던 네트워크 프레임워크입니다.
+
+OON (Object Oriented Network) 와 Invoke 라는 특유의 패턴을 통하여, 복잡한 네트워크 시스템도 객체적인 접근을 통하여 쉽게 풀어나갈 수 있는 것이 특징입니다. 저의 개인 프로젝트인 [3.2.2. Samchon Simulation](#322-samchon-simulation) 과, 저의 첫 상용 프로젝트의 [4.1.1. OraQ (Selene TR-1)](#411-oraq-selene-tr-1) 이, 바로 이 `samchon-framework` 를 사용해 만들어졌습니다.
+
+다만, `samchon-framework` 의 지원 언어에 TypeScript 를 추가하고 OON (Object Oriented Network) 에 대하여 더 심도있게 연구하는 와중에, RFC (Remote Function Call) 에 대한 실마리를 찾게 되었습니다. 때문에 2018 년 말, 오래도록 개발해오던 `samchon-framework` 를 중단하고, [3.1.9. TGrid](#319-tgrid) 를 만들게 됩니다.
+
+
+
 
 ### 3.2. Private Projects
 #### 3.2.1. Hansung Timetable
@@ -364,8 +415,6 @@ Cloud DICOM (PACS) Media Manager.
       - 이미지 한 장에 수백 MB ~ 수 GB 를 상회
       - 이를 20 프레임 단위로 이펙트 효과를 줄 수 있어야 함
     - 서버 전체 단위의 임계영역 제어 필요
-  - 초기 매뉴얼: [assets/manuals/oraq.pdf](assets/manuals/oraq.pdf)
-  - 자세한 이야기: [ORAQ.md](ORAQ.md)
 
 OraQ (일본에서는 Selene TR-1) 는 제가 대학교를 졸업하고나서 처음 개발했던 상용 프로젝트로써, 제가 여지껏 했던 모든 프로젝트를 통들어 가장 난이도가 높고, 하지만 시간은 가장 촉박했던 그런 프로젝트입니다. 그리고 동시에, 당시 신입이던 저에게 "이보다 더 좋은 기회가 있을까?" 싶은, 그런 프로젝트이기도 했습니다.
 

@@ -31,22 +31,20 @@ ActionScript | 20 년       | 2 년    | Flex Architecture 를 통해 고급 설
 DB/SQL       | 20 년       | 5 년    | ERD 설계에 능함
 
 ### [1.5. Experiences](https://github.com/samchon/resume/blob/master/STORY.md#15-experiences)
-  - 프로그래밍 경험: 22 년
-  - 총 상용 경력 63 개월
-    - 정규직: 50 개월
+  - 프로그래밍 경험: 25 년
+  - 총 상용 경력 92 개월
+    - 정규직: 79 개월
     - 계약직: 13 개월
-  - 이전 연봉 (현재 비공개)
-    - 정규직: 1 억 원
-    - 계약직: 1.6 억 원
 
-Company                             | Entry Date | Leave Date | Form
-------------------------------------|------------|------------|-------
+Company | Entry Date | Leave Date | Form
+--------|------------|------------|-------
 [스마트케어웍스](https://github.com/samchon/resume/blob/master/STORY.md#41-smartcareworks) | 2014-10    | 2015-02    | 계약직
 [유니텍 해양연구소](https://github.com/samchon/resume/blob/master/STORY.md#42-unitech)     | 2015-05    | 2015-07    | 계약직
 [히즈윌 부설연구소](https://github.com/samchon/resume/blob/master/STORY.md#43-hiswill)     | 2015-10    | 2015-11    | 계약직
 [히즈윌 부설연구소](https://github.com/samchon/resume/blob/master/STORY.md#43-hiswill)     | 2015-11    | 2017-01    | 정규직
 [아이지넷](https://github.com/samchon/resume/blob/master/STORY.md#44-aijinet)             | 2017-01    | 2019-12    | 정규직
 [아이지넷](https://github.com/samchon/resume/blob/master/STORY.md#44-aijinet)             | 2020-01    | 2020-07    | 계약직
+[집토스](https://github.com/samchon/resume/blob/master/STORY.md#45-ziptoss) | 2020-08 | 2020-10 | 정규직
 아키드로우 | 2020-11 | 재직중 | 정규직
 
 
@@ -54,16 +52,16 @@ Company                             | Entry Date | Leave Date | Form
 
 ## [2. Introduction](https://github.com/samchon/resume/blob/master/STORY.md#2-introduction)
 ### [2.1. For a lifetime](https://github.com/samchon/resume/blob/master/STORY.md#21-for-a-lifetime)
-1998 년 이래로 프로그래밍을 시작, 22 년을 한결같이 매진해왔습니다.
+1998 년 이래로 프로그래밍을 시작, 25 년을 한결같이 매진해왔습니다.
 
 ### [2.2. Self Improvement](https://github.com/samchon/resume/blob/master/STORY.md#22-self-improvement)
 회사에서 근무하는 동안, 새로운 라이브러리에 대한 필요를 느끼거나 혹은 기존 라이브러리에서 불편함을 느끼면, 집으로 돌아와 이를 오픈소스 프로젝트로 제작해보고는 합니다.
 
 ### [2.3. Standardization](https://github.com/samchon/resume/blob/master/STORY.md#23-standardization)
-22 년 간 개발을 공부해오면서, 표준화의 중요성을 절실히 느껴, 이를 중시합니다.
+25 년 간 개발을 공부해오면서, 표준화의 중요성을 절실히 느껴, 이를 중시합니다.
 
 ### [2.4. Documentation](https://github.com/samchon/resume/blob/master/STORY.md#24-documentation)
-프로젝트를 진행하면서 이슈사항들에 대하여 꾸준히 문서로 정리하며, 상용 프로젝트를 시작한 이래, 단 하루도 거르지 않고 일일 업무일지를 작성해왔습니다.
+프로젝트를 진행하면서 이슈사항들에 대하여 꾸준히 문서로 정리하며, 상용 프로젝트를 시작한 이래, 일일 업무일지를 꾸준히 작성해왔습니다.
 
 ### [2.5. Test Driven Development](https://github.com/samchon/resume/blob/master/STORY.md#25-test-driven-development)
 저는 개발을 할 때, 표준화만큼이나 TDD 를 철저히 지킴으로써, 늘 안정성을 추구합니다.
@@ -72,18 +70,27 @@ Company                             | Entry Date | Leave Date | Form
 
 
 ## [3. My Projects](https://github.com/samchon/resume/blob/master/STORY.md#3-my-projects)
-Project            | Skills           | Special Note
+### [3.1. Open Source Projects](https://github.com/samchon/resume/blob/master/STORY.md#31-open-source-projects)
+Project            | Skills           | Description
 -------------------|------------------|-----------------------------
-[samchon-framework](https://github.com/samchon/resume/blob/master/STORY.md#311-samchon-framework)  | C++, Flex        | Interaction through network
-[tstl](https://github.com/samchon/resume/blob/master/STORY.md#312-tstl)               | TypeScript       | C++ STL in the TypeScript
-[tgrid](https://github.com/samchon/resume/blob/master/STORY.md#313-tgrid)              | TypeScript       | TypeScript Grid Computing Framework
-[mutex-server](https://github.com/samchon/resume/blob/master/STORY.md#314-mutex-server)       | TypeScript       | Mutex and Semaphore in the network level
-[nestia](https://github.com/samchon/resume/blob/master/STORY.md#315-nestia) | TypeScript | Automatic SDK generator for NestJS
-[safe-typeorm](https://github.com/samchon/resume/blob/master/STORY.md#316-safe-typeorm) | TypeScript | TypeORM helper for the compilation level
-[backend](https://github.com/samchon/resume/blob/master/STORY.md#317-backend) | TypeScript | Example backend project for newbie developers
-[hansung-timetable](https://github.com/samchon/resume/blob/master/STORY.md#321-hansung-timetable)  | Flex             | Timetable Simulator
-[samchon-simulation](https://github.com/samchon/resume/blob/master/STORY.md#322-samchon-simulation) | C++, Flex, MySQL | Stock Trading Simulator
-[nam-tree](https://github.com/samchon/resume/blob/master/STORY.md#323-nam-tree)           | C++, Flex, MySQL | Custom Decision Tree for Complicate Model
+[typia](https://github.com/samchon/resume/blob/master/STORY.md#311-typia) | TypeScript | 15,000x faster Runtime Validator
+[nestia](https://github.com/samchon/resume/blob/master/STORY.md#312-nestia) | TypeScript | A set of helper libraries for `NestJS`
+[reactia](https://github.com/samchon/resume/blob/master/STORY.md#313-reactia) | TypeScript | Automatic React Component Generator
+[fake-iamport-server](https://github.com/samchon/resume/blob/master/STORY.md#314-fake-iamport-server) | TypeScript | Fake Iamport Server for testing
+[fake-toss-payments-server](https://github.com/samchon/resume/blob/master/STORY.md#315-fake-toss-payments-server) | TypeScript | Fake Toss Payments Server for testing
+[backend](https://github.com/samchon/resume/blob/master/STORY.md#316-backend) | TypeScript | Backend Template Project
+[safe-typeorm](https://github.com/samchon/resume/blob/master/STORY.md#317-safe-typeorm) | TypeScript | TypeORM helper for the compilation level
+[tstl](https://github.com/samchon/resume/blob/master/STORY.md#318-tstl) | TypeScript | C++ STL in the TypeScript
+[tgrid](https://github.com/samchon/resume/blob/master/STORY.md#319-tgrid) | TypeScript | TypeScript Grid Computing Framework
+[mutex-server](https://github.com/samchon/resume/blob/master/STORY.md#3110-mutex-server) | TypeScript | Mutex and Semaphore in the network level
+[samchon-framework](https://github.com/samchon/resume/blob/master/STORY.md#3111-samchon-framework) | C++, Flex | Interaction through network
+
+### [3.2. University Projects](https://github.com/samchon/resume/blob/master/STORY.md#32-university-projects)
+Project            | Skills           | Description
+-------------------|------------------|-----------------------------
+[hansung-timetable](STORY.md#321-hansung-timetable)  | Flex             | Timetable Simulator
+[samchon-simulation](https://github.com/samchon/resume/blob/master/STORY.md#322-samchon-simulation) | C++, Flex | Stock Trading Simulator
+[nam-tree](https://github.com/samchon/resume/blob/master/STORY.md#323-nam-tree)           | C++, Flex | Custom Decision Tree for Complicate Model
 
 
 
